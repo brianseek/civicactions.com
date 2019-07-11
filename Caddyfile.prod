@@ -5,7 +5,7 @@ civicactions.com:443 {
 #		dns cloudflare
 #	}
 	tls off
-	header / Strict-Transport-Security "max-age=31536000;"
+#	header / Strict-Transport-Security "max-age=31536000;"
 }
 civicactions.com:80 www.civicactions.com:80 www.civicactions.com:443 {
 	# Redirect all other domains/ports to the canonical one.
