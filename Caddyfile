@@ -1,2 +1,0 @@
-# Import a configuration file specific to the environment.
-import /etc/Caddyfile.{$ENV}
